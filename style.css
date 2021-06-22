@@ -50,6 +50,7 @@ section article{
     position: relative;
     overflow: hidden;
     height: 249px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.116);
 }
 section article p{
     margin-top: 16px;
