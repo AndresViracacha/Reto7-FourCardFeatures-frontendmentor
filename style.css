@@ -32,21 +32,35 @@ h1 span{
     color: var(--grayBlue);
     font-weight: 400;
     font-size: 15px;
+    margin-bottom: 70px;
 }
 section{
     max-width: 1110px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 section article{
-    max-width: 350px;
+    width: 350px;
     margin-bottom: 30px;
-    padding: 32px 35px 31px 35px;
+    padding: 38px 35px 32px 35px;
     background-color: #FFF;
     border-radius: 5px;
     position: relative;
     overflow: hidden;
+    height: 249px;
+}
+section article p{
+    margin-top: 16px;
+    margin-bottom: 35px;
+    font-weight: 200;
+    font-size: 14px;
+    max-width: 265px;
+}
+picture{
+    display: flex;
+    justify-content: end;
 }
 .first-card::before{
     position: absolute;
@@ -83,4 +97,9 @@ section article{
     top: 0;
     left: 0;
     background-color: var(--blue);    
+}
+h2{
+    color: var(--darkBlue);
+    font-weight: 600;
+    font-size: 16px;
 }
